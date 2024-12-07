@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
+    "custom" : "npm install && npm i concurrently && npm i bcryptjs && npm i nodemailer && npm start",
     "test": "react-scripts test ",
     "start": "concurrently \"node server.js\" \"node authRoutes.js\"",
     "dev": "node server.js",
